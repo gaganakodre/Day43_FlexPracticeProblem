@@ -1,0 +1,108 @@
+<!DOCTYPE >
+
+<html lang="en">
+    <head >
+      <title>Example</title>
+      <style>
+        .cards {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          flex-direction: row;
+          max-height: 100vh;
+          width: 250vh;
+          align-items: center;
+        }
+        .cards img {
+          margin: 10px;
+          border: 3px solid #000;
+          box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+          max-width: 22.5vw;
+          height: 175px;
+        }
+        .header-class{
+          display: flex;
+          flex-flow: column wrap;
+          align-content: center;
+          background-color: #5F8575;
+         
+          height: 80px;
+          font-size: 30px;
+        }
+        .outer-col-1 {
+          background: #AFE1AF;
+          flex: 1;
+          padding: 50px;
+          text-align: left;
+    
+        }
+        .nav-content
+        {
+          display:flex;
+          flex-direction: column;
+
+        }
+        .main-content
+        {
+          display: flex;
+          flex-direction: row;
+        }
+        .footer-content
+        {
+          display: flex;
+          flex-flow: column wrap;
+          align-content: center;
+          background-color: #5F8575;
+         
+          height: 80px;
+          font-size: 30px;
+
+        }
+     nav{
+          display: flex;
+          flex-flow: row wrap;
+          flex: 1;
+          text-align: left;
+          font-weight: bold;
+       }
+      </style>
+    </head>
+    <body>
+      
+      <div>
+      <header class="header-class">Header</header>
+    </div>
+    <div class="main-content">
+      <div class="nav-content">
+        <nav class="outer-col-1"><h>Nav</h>
+          <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+          </ul>
+        </nav>
+      </div>
+        <main class="cards">
+          <img src="../assests/first.jpg" alt="Sample photo">
+          <img src="../assests/second.jpg" alt="Sample photo">
+          <img src="../assests/third.jpg" alt="Sample photo">
+          <img src="../assests/forth.jpg" alt="Sample photo">
+          <img src="../assests/fifth.jpg" alt="Sample photo">
+          <img src="../assests/sixth.jpg" alt="Sample photo">
+          <img src="../assests/seven.jpg" alt="Sample photo">
+          <img src="../assests/eight.jpg" alt="Sample photo">
+          <img src="../assests/third.jpg" alt="Sample photo">
+          <img src="../assests/first.jpg" alt="Sample photo">
+          <img src="../assests/second.jpg" alt="Sample photo">
+          <img src="../assests/third.jpg" alt="Sample photo">
+       
+        </main>
+    </div>
+      <div class="footer-content">
+        <footer>footer</footer>
+      </div>
+        
+    </body>
+  </html>
+
+

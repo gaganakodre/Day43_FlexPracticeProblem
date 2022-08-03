@@ -1,0 +1,105 @@
+<!doctype>
+<html>
+    <head>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .outer-col-1 {
+    background: #AFE1AF;
+    flex: 1;
+    padding: 50px;
+    text-align: left;
+    
+  }
+  .outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .inner-col {
+    flex: 4;
+  }
+  .inner-row article {
+    min-height: 10px;
+    padding:10px;
+    border:2px solid gray;
+  }
+  .inner-row aside {
+    background: #9FE2BF;
+    flex: 1;
+  }
+  header, footer {
+    background: #5F8575;
+    height: 50px;
+    font-weight: bold;
+  }
+  header, footer,   aside {
+    padding: 50px;
+    font-weight: bold;
+    min-height: 15.52vh;
+  }
+  nav{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+}
+p,li{
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 1px;
+        text-align: justify;
+    }
+    li{
+        text-align: left;
+    }
+
+</style>
+    </head>
+<body>
+  <nav class="outer-col-1"><h>Nav</h>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+  </nav>
+  <div class="outer-col-2">
+  	<header>Header</header>
+    <div class="inner-row">
+      <div class="inner-col">
+    	<article>
+          <h>Article</h>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        </article>
+        <article>
+          <h>Article</h>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        </article>
+        <article>
+            <h>Article</h>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        </article>
+  		<footer>Footer</footer>
+      </div>
+    	<aside>Aside</aside>
+    </div>
+  </div>
+  </html>
